@@ -10,7 +10,7 @@ const Ch02Page = lazy(() => import("../pages/Ch02"))
 const root = createBrowserRouter([
 
  {
- path: "",
+ path: "book",
  element: <Suspense fallback={Loading}><Main/></Suspense>,
  children: [
    {
