@@ -9,6 +9,8 @@ const Ch02Page = lazy(() => import("../pages/Ch02"))
 
 const Ch03Page = lazy(() => import("../pages/Ch03"))
 
+const Ch04Page = lazy(() => import("../pages/Ch04"))
+
 const root = createBrowserRouter([
 
  {
@@ -25,6 +27,13 @@ const root = createBrowserRouter([
       path:'ch03',
       element: <Suspense fallback={Loading}><Ch03Page/></Suspense>,
      }, 
+    
+     {
+      path:'ch04',
+      element: <Suspense fallback={Loading}><Ch04Page/></Suspense>,
+     }, 
+
+     
 
   ]
  },
