@@ -1190,7 +1190,7 @@ export default ModifyPage;
         </li>
 
         <li>
-          <div className="p-3 font-extrabold bg-green-500 m-3" >2.5 </div>
+          <div className="p-3 font-extrabold bg-green-500 m-3" >4.7.3</div>
           <div className="border-2 m-2">
             <pre>
             {`
