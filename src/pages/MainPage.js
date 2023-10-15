@@ -13,7 +13,7 @@ const MainPage = () => {
           <Link to={'ch02'}>Ch02-리액트</Link>
         </li>
         <li  className="p-2">
-          <Link>Ch03-부트</Link>
+          <Link to={'ch03'}>Ch03-부트</Link>
         </li>
       </ul>
 
