@@ -141,7 +141,7 @@ const ReadComponent = ({tno}) => {
     {makeDiv('Writer', todo.writer)}
     {makeDiv('Title', todo.title)}
     {makeDiv('Due Date', todo.dueDate)}
-    {makeDiv(Complete, todo.complete ? 'Completed' : 'Not Yet')}
+    {makeDiv('Complete', todo.complete ? 'Completed' : 'Not Yet')}
 
   </div>
   )
