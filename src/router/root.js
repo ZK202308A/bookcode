@@ -17,7 +17,7 @@ const root = createBrowserRouter([
   
  },
  {
-  path: ":ch",
+  path: "src/:ch",
   element: <Suspense fallback={Loading}><Each/></Suspense>,
   errorElement: <Navigate to='/book/' replace></Navigate>
   
