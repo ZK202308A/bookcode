@@ -12,12 +12,12 @@ const Each = lazy(() => import("../pages/EachPage"))
 const root = createBrowserRouter([
 
  {
-  path: "",
+  path: "/book/",
   element: <Suspense fallback={Loading}><Main/></Suspense>,
   
  },
  {
-  path: "src/:ch",
+  path: "/book/src/:ch",
   element: <Suspense fallback={Loading}><Each/></Suspense>,
   errorElement: <Navigate to='/book/' replace></Navigate>
   
