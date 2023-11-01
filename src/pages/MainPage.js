@@ -5,6 +5,8 @@ const MainPage = () => {
 
 
 
+  
+
   return (  
     <div className="text-4xl ">
       <div className="m-0 p-3 w-full bg-blue-700 text-white font-extrabold text-center"> 
