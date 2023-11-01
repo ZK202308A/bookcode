@@ -38,6 +38,12 @@ const EachPage = () => {
         <Link to="/book/">회사에서 필요한 리액트 </Link>
       </div>
 
+
+
+
+
+
+
       <ul className="text-2xl bg-orange-500 font-bold text-white p-2 m-1 flex">
         <li className="p-2">
           <Link to={'/book/src/react_ch02'}>Ch02</Link>
