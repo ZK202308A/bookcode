@@ -8,7 +8,7 @@ const MainPage = () => {
   return (  
     <div className="text-4xl ">
       <div className="m-0 p-3 w-full bg-blue-700 text-white font-extrabold text-center"> 
-        <Link to="/book/">회사에서 필요한 리액트 </Link>
+        <Link to="/book/">코드로 배우는 리액트 </Link>
       </div>
 
       <ul className="text-2xl bg-orange-500 font-bold text-white p-2 m-1">
