@@ -35,11 +35,8 @@ const EachPage = () => {
   return ( 
     <div>
       <div className="m-0 p-3 w-full bg-blue-700 text-white font-extrabold text-center"> 
-        <Link to="/book/">회사에서 필요한 리액트 </Link>
+        <Link to="/book/">코드로 배우는 리액트 </Link>
       </div>
-
-
-
 
 
 
@@ -67,7 +64,10 @@ const EachPage = () => {
           <Link to={'/book/src/react_ch08'}>Ch08</Link>
         </li>
         <li  className="p-2">
-          <Link to={'/book/src/react_ch09'}>Ch09</Link>
+          <Link to={'/book/src/react_ch09'}>Ch09(React)</Link>
+        </li>
+        <li  className="p-2">
+          <Link to={'/book/src/java_ch09'}>Ch09(부트)</Link>
         </li>
         <li  className="p-2">
           <Link to={'/book/src/java_ch10'}>Ch10</Link>
@@ -77,6 +77,9 @@ const EachPage = () => {
         </li>
         <li  className="p-2">
           <Link to={'/book/src/react_ch12'}>Ch12</Link>
+        </li>
+        <li  className="p-2">
+          <Link to={'/book/src/react_ch12_react_query_v5'}>Ch12_React_Query_v_5</Link>
         </li>
       </ul>
 

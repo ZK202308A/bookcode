@@ -2091,8 +2091,8 @@ const useCustomMove = () => {
 
   const [queryParams] = useSearchParams()
 
-  const page = getNum(queryParams.get('page'), 1)
-  const size = getNum(queryParams.get('size'),10)
+  const page = getNum(queryParams.get('page'), page)
+  const size = getNum(queryParams.get('size'),size)
 
   const queryDefault = createSearchParams({page, size}).toString() //새로 추가
 

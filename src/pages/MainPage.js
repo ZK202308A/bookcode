@@ -36,7 +36,10 @@ const MainPage = () => {
           <Link to={'/book/src/react_ch08'}>Ch08</Link>
         </li>
         <li  className="p-2 mt-3">
-          <Link to={'/book/src/react_ch09'}>Ch09</Link>
+          <Link to={'/book/src/react_ch09'}>Ch09(React)</Link>
+        </li>
+        <li  className="p-2 mt-3">
+          <Link to={'/book/src/java_ch09'}>Ch09(부트)</Link>
         </li>
         <li  className="p-2 mt-3">
           <Link to={'/book/src/java_ch10'}>Ch10</Link>
@@ -46,6 +49,9 @@ const MainPage = () => {
         </li>
         <li  className="p-2 mt-3">
           <Link to={'/book/src/react_ch12'}>Ch12</Link>
+        </li>
+        <li  className="p-2 mt-3">
+          <Link to={'/book/src/react_ch12_react_query_v5'}>Ch12_React_Query_v_5</Link>
         </li>
       </ul>
 
